@@ -1,9 +1,25 @@
 # RMD-Letter web
 
-Node v6.10.0
+This platform is designed for electronic recommendation letter system for master's degree. Use nodejs and mongodb to set up the backend, and saved the users' files on AWS S3. 
+It was used at the master's selection of Department of Computer Science in National Cheng Kung University in 2017.
+
+## Introduction
+### For Departments Office  
+| Mantain announcements | Create recommended letter format |
+| ---- | ---- |
+| ![](img/announcement.png) | ![](img/make_rmdlt.png) |
+
+### For Student
+| Different subdomains for different departments | Entrance |
+| ---- | ---- |
+| ![](img/subdomain.png) | ![](img/enter.png) |
+
+| Chose recommended person | Fill your in information |
+| ---- | ---- |
+| ![](img/recommend_list.png) | ![](img/fill_rmdlt.png) |
 
 ## Develop Environment Setup
-
+Node v6.10.0
 ### MongoDB
 
 macOS
